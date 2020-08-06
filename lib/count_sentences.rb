@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-self.split(sentence?, question?, exclamation?)
+self.split.each |sentence?, question?, exclamation?|
 
 binding.pry
   end
