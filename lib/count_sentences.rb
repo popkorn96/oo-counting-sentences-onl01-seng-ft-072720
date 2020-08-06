@@ -16,6 +16,6 @@ class String
 
   def count_sentences(string)
     string = []
-    self.split(".","!","?").count
+    self.split(".","!","?").count = string
   end
 end
