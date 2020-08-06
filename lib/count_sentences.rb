@@ -14,8 +14,9 @@ class String
     self.end_with?"!"
   end
 
-  def count_sentences(self)
+  def count_sentences
 self.split(sentence?, question?, exclamation?)
+end
 binding.pry
   end
 end
